@@ -1,7 +1,6 @@
 import json
 
 import requests
-from django.http import HttpResponse
 from django import forms
 from django.shortcuts import render, redirect
 
