@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form name = "form" enctype = "multipart/form-data"
+         action = "{% url "display_gif" %}" method = "POST" >{% csrf_token %}
+
+        <div style = "max-width:470px;">
+            <p style = "margin-left:20%;">Keyword: </p>
+           <input type = "text" style = "margin-left:20%;"
+           placeholder = "keyword" name = "keyword" />
+         </div>
+
+         <div style = "max-width:470px;">
+
+           <button style = "border:0px;background-color:#4285F4; margin-top:8%;
+              height:35px; width:80%; margin-left:19%;" type = "submit" value = "Submit" >
+              <strong>Submit</strong>
+           </button>
+
+         </div>
+
+      </form>
+    <img src="{}"
+</body>
+</html>
